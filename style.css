@@ -8,14 +8,14 @@
 }
 
 :root {
-  --cream: #F7F3EE;
-  --ink: #1A1614;
-  --ink-soft: #4A4240;
-  --accent: #C4553A;
-  --accent-light: #F0DDD7;
-  --purple: #7B5EA7;
-  --purple-light: #EDE8F5;
-  --border: rgba(26,22,20,0.12);
+  --cream: #EDE8F5;           /* soft lavender background */
+  --ink: #2A1A35;             /* deep purple-black text */
+  --ink-soft: #6B5880;        /* muted purple for body text */
+  --accent: #7B3F7A;          /* deep plum for buttons & highlights */
+  --accent-light: #D9CEF0;    /* light lavender for tags */
+  --purple: #9B72B0;          /* mid purple accent */
+  --purple-light: #EDE8F5;    /* soft lavender */
+  --border: rgba(42,26,53,0.12);
   --font-display: 'Playfair Display', Georgia, serif;
   --font-body: 'DM Sans', sans-serif;
   --radius: 16px;
@@ -100,7 +100,7 @@ ul { list-style: none; }
 .blob-1 {
   width: 500px;
   height: 500px;
-  background: #D4A8C7;
+  background: #C4A8D4;   /* soft purple */
   top: -100px;
   right: -100px;
 }
@@ -108,7 +108,7 @@ ul { list-style: none; }
 .blob-2 {
   width: 350px;
   height: 350px;
-  background: #A8C4D4;
+  background: #9B72B0;   /* deeper purple */
   bottom: 0;
   left: -80px;
 }
@@ -291,7 +291,7 @@ ul { list-style: none; }
 
 .project-card--featured {
   grid-column: span 2;
-  background: var(--ink);
+  background: #2A1A35;   /* deep plum instead of near-black */
   color: white;
   border-color: transparent;
 }
